@@ -1,0 +1,228 @@
+body {
+  background-color: #f3f3f3;
+}
+
+.flex {
+  display: flex;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+li,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  width: 1120px;
+  margin: 0 auto;
+}
+
+.header {
+  /* размеры и по центру */
+  width: 1120px;
+  height: 35px;
+  margin: 0 auto;
+
+  /* позиционирование */
+  margin-top: 50px;
+  display: flex;
+
+  /* чтобы логотип был слева а кнопки справа */
+  justify-content: space-between;
+}
+
+.logo {
+  padding: 0;
+  margin: 0;
+
+  /* берется из гугл фонтс */
+  font-family: "Poiret One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+  /* размер шрифта */
+  /* font-size: 36px; */
+
+  /* размер логотипа */
+  width: 35px;
+  height: 35px;
+}
+
+.nav {
+  align-content: end;
+}
+
+/* обращаемся в списку */
+.nav-items {
+  /* чтобы не было точек в списке */
+  list-style-type: none;
+
+  /* ставим в строчку */
+  display: flex;
+
+  font-family: "Cormorant", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+}
+
+/* обращаемся к элементам списка */
+.nav-item {
+  padding-left: 30px;
+}
+
+.nav-item:hover {
+  color: rgb(88, 88, 88);
+  cursor: pointer;
+}
+
+.wrapper {
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.home-photo {
+  height: 600px;
+}
+
+.wrapper-text {
+  width: 600px;
+}
+
+.title {
+  font-family: "Poiret One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 36px;
+}
+.who-text {
+  font-family: "Poiret One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 22px;
+}
+
+
+
+.about-site {
+  margin-top: 100px;
+  font-family: "Cormorant", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 0.1em;
+
+  font-size: 22px;
+
+  padding-bottom: 150px;
+}
+
+.date-text {
+  font-family: "Poiret One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 36px;
+}
+
+
+.time-text {
+  font-family: "Poiret One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 22px;
+}
+
+.about-photo {
+  margin-top: 50px;
+  font-family: "Cormorant", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 0.1em;
+
+  font-size: 22px;
+
+  width: 98%;
+}
+
+.journey-btn {
+  text-decoration: none;
+  color: black;
+
+  font-family: "Cormorant", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 0.1em;
+
+  font-size: 22px;
+
+  border-bottom: 1px solid black;
+}
+
+
+.journey-btn:hover {
+  color: rgb(88, 88, 88);
+  border-color: rgb(88, 88, 88);
+}
+
+
+#journey {
+  margin-top: 100px;
+}
+
+
+.left, .right {
+  width: 50%;
+  text-align: center;
+}
+
+.down {
+  margin-top: 40px;
+  padding-bottom: 130px;
+}
+
+.image-item {
+  width: 50%;
+}
+
+.journey-title {
+  font-family: "Poiret One", sans-serif;
+  font-weight: 400;
+  font-style: bold;
+  font-size: 44px;
+
+  width: 100%;   
+  margin: 0 auto;
+  padding-bottom: 15px;
+  margin-bottom: 70px;
+
+
+  border-bottom: 1px solid black;
+  text-align: center;
+}
+
+#home {
+  padding-bottom: 150px;
+}
+
+
+.down-arrow img {
+  width: 100px;
+  height: 100px; 
+  margin-top: 50px;
+}

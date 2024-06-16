@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- подключение стилей -->
+    <link rel="stylesheet" href="./styles/main.css" />
+
+    <!-- подключение шрифтов -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&family=Great+Vibes&display=swap"
+      rel="stylesheet"
+    />
+
+    <link type="Image/x-icon" href="./img/favicon.ico" rel="icon" />
+    <title>Веб-альбом Нади</title>
+  </head>
+  <body>
+    <header>
+      <div class="header">
+        <!-- логотип -->
+        <h1 class="logo">xn.</h1>
+
+        <!-- кнопочки -->
+        <div class="nav">
+          <!-- ul - список -->
+          <ul class="nav-items">
+            <li class="nav-item">
+              <a href="#journey-childhood" class="nav-item">Детство</a>
+            </li>
+            <li class="nav-item">
+              <a href="#journey-young" class="nav-item">Юношество</a>
+            </li>
+            <li class="nav-item">
+              <a href="#journey-now" class="nav-item">Сейчас</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+
+    <section id="home" class="container">
+      <div class="wrapper">
+        <img
+          src="./img/photo_2024-05-20_10-09-22.jpg"
+          alt="mirror"
+          class="home-photo"
+        />
+
+        <div class="wrapper-text">
+          <h1 class="title">Панкова Надежда Александровна</h1>
+          <h2 class="who-text">студентка группы ИСП-1523</h2>
+
+          <p class="about-site">
+            Этот сайт был написан мной, в целях изучения веб технологий. За
+            время обучениия я изучила HTML, CSS и JS. В качестве идеи, я выбрала
+            сайт-фотоальбом, чтобы структурировать свои фотографии и сделать
+            что-то памятное. Поэтому представляю вам свое творение в виде
+            маленького путешествия по моей галлерее
+          </p>
+
+          <a href="#journey-childhood" class="journey-btn"
+            >Отправиться в путешествие</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <section id="journey-childhood" class="container">
+      <h1 class="journey-title">Детские фотографии</h1>
+      <div class="up flex">
+        <div class="left">
+          <h1 class="date-text">Дата: 08.05.2011</h1>
+          <h2 class="time-text">Время: 17:37</h2>
+
+          <p class="about-photo">
+            Тут я еще совсем маленькая. Я не помню, где была сделана эта фотка,
+            возможно на Павловке, но я точно знаю, что тут я была не такая
+            вредная, как сейчас
+          </p>
+        </div>
+        <div class="right">
+          <img
+            src="./img/childhood1.jpg"
+            alt="детская фотография"
+            class="image-item"
+          />
+        </div>
+      </div>
+      <div class="down flex">
+        <div class="left">
+          <img
+            src="./img/childhood2.jpeg"
+            alt="детская фотография"
+            class="image-item"
+          />
+        </div>
+        <div class="right">
+          <h1 class="date-text">Дата: Неизвестно</h1>
+          <h2 class="time-text">Время: Неизвестно</h2>
+
+          <p class="about-photo">
+            Эта фотка сделана перед свадьбой Артемки в комнате, которая сейчас
+            является кабинетом
+          </p>
+
+          <div class="down-arrow">
+            <a href="#journey-young" class="arrow">
+              <img src="./img/down-arrow.png" alt="стрелка вниз" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="journey-young" class="container">
+      <h1 class="journey-title">Юношеские фотографии</h1>
+      <div class="up flex">
+        <div class="left">
+          <h1 class="date-text">Дата: 18.05.2021</h1>
+          <h2 class="time-text">Время: 18:07</h2>
+
+          <p class="about-photo">
+            Тут я строю из себя крутышку рядом с парком Якутова, во время
+            прогулки со свей двоюродной сестрой Дианой
+          </p>
+        </div>
+        <div class="right">
+          <img
+            src="./img/young.jpeg"
+            alt="детская фотография"
+            class="image-item"
+          />
+        </div>
+      </div>
+      <div class="down flex">
+        <div class="left">
+          <img
+            src="./img/young1.jpg"
+            alt="детская фотография"
+            class="image-item"
+          />
+        </div>
+        <div class="right">
+          <h1 class="date-text">Дата: xx.xx.2018</h1>
+          <h2 class="time-text">Время: xx:xx</h2>
+
+          <p class="about-photo">
+            Эта фотка сделана во время выпускного из четвертого класса. Тут мне
+            10 лет и у меня в голове только танцы
+          </p>
+
+          <div class="down-arrow">
+            <a href="#journey-now" class="arrow">
+              <img src="./img/down-arrow.png" alt="стрелка вниз" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="journey-now" class="container">
+      <h1 class="journey-title">Последние фотографии</h1>
+      <div class="up flex">
+        <div class="left">
+          <h1 class="date-text">Дата: 12.02.2024</h1>
+          <h2 class="time-text">Время: xx:xx</h2>
+
+          <p class="about-photo">
+            Здесь я учусь в техникуме, мне уже целых 16 лет, и я думаю
+            только о том, как сдать сессию
+          </p>
+        </div>
+        <div class="right">
+          <img
+            src="./img/now.jpeg"
+            alt="детская фотография"
+            class="image-item"
+          />
+        </div>
+      </div>
+      <div class="down flex">
+        <div class="left">
+          <img
+            src="./img/now1.jpeg"
+            alt="детская фотография"
+            class="image-item"
+          />
+        </div>
+        <div class="right">
+          <h1 class="date-text">Дата: 26.05.2024</h1>
+          <h2 class="time-text">Время: xx:xx</h2>
+
+          <p class="about-photo">
+            А тут я в квартире у Эмильки. В момент этой фотографии у него в
+            квартире не было дивана и нам приходилось спать на полу, но сейчас у
+            него классный диван, на котором я очень люблю валяться
+          </p>
+
+          <!-- <div class="down-arrow">
+            <a href="#journey-now" class="arrow">
+              <img src="./img/down-arrow.png" alt="стрелка вниз" />
+            </a>
+          </div> -->
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
